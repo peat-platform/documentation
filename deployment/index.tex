@@ -31,12 +31,12 @@
 This section will outline the advised methods for installing and deploying the Docker Engine on a system.
 
 \subsection{Installation}
-The Docker Engine uses Linux-specific kernel features, because of this it can run natively on any Linux operating system however there are also ways of installing Docker on non-Linux operating systems such as Windows and OSX. This section will cover the installation of Docker on various systems and provide guidance for installing it on system's not covered in this article.
+The Docker Engine uses Linux-specific kernel features, because of this it can run natively on any Linux operating system however Docker can be used on non-Linux operating systems such as Windows and OSX using Boot2Docker. This section will cover the installation of Docker on Ubuntu, Fedora, Windows and OSX and provide guidance for installing Docker on other systems.
 
-To run the OPENi docker platform, Docker version 1.4 or above is advised. 
+Docker version 1.4 or above is advised for the OPENi platform. 
 
 \subsubsection{Linux}
-Note that as of the current stable release (1.5) the Docker Engine does not support 32-bit Linux architectures natively, some systems have been able to run Docker on a 32-bit architecture but this is not advised.
+Note that as of the current stable release (1.5) the Docker Engine does not natively support 32-bit Linux architectures, although some systems have been able to run Docker on a 32-bit architecture but this is not advised.
 
 \newpage
 
@@ -83,11 +83,12 @@ The installation instructions for installing the latest version of Boot2Docker o
 \newpage
  
 \subsection{Deployment}
-This section will detail how to deploy the OPENi docker platform on a host.
+This section will detail how to deploy the OPENi docker platform on a host machine.
 
 \subsubsection{Configuration}
 Clone the OPENi-docker repository from the OPENi GitHub account.\\
 \centerline{\textbf{git clone https://github.com/OPENi-ict/openi-docker.git}}
+
 
 \subsubsection{Orchestration}
 
